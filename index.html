@@ -4,13 +4,143 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wildlife</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    
+    <!--Header-->
     <header class="header">
-        
+        <div class="container header__block">
+            <h1>Wildlife</h1>
+            <figure class="header__logo_figure">
+                <img src="./assets/img/svg/wildlife_logo.svg" alt="Wildlife" width="70" height="60">
+                <figcaption class="header__logo_figure_name">wildlife</figcaption>
+            </figure>
+                
+            <nav class="header__nav">
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#" class="header__link">blog</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#" class="header__link">contacts</a>
+                    </li>
+                    <li class="header__item_search">
+                        <a href="#" class="header__link_search">
+                            <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <path id="icon_search" d="M12.688 18.688C16.001 18.688 18.688 16 18.688 12.688C18.688 9.376 16 6.688 12.688 6.688C9.376 6.688 6.688 9.376 6.688 12.688C6.688 16 9.376 18.688 12.688 18.688ZM20.688 18.688L27.313 25.313L25.313 27.313L18.688 20.688V19.625L18.313 19.25C16.813 20.563 14.813 21.313 12.688 21.313C7.875 21.313 4 17.5 4 12.688C4 7.876 7.875 4 12.688 4C17.501 4 21.313 7.875 21.313 12.688C21.313 14.813 20.563 16.813 19.25 18.313L19.625 18.688H20.688Z" fill="white"/>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="header__item_button">
+                        <a href="#" class="header__link_buttton">Sign in</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>    
     </header>
     
+    <!--Main--> 
+    <main>
+        <section class="survival">
+            <div class="wrapper">
+                <div class="survival__block">
+                    <div class="container">
+                        <h2>survival</h2>
+                        <div class="survival__content">What this means is that we exist to help protect our environment and do in numbers of ways. You can save the planet by donation.</div>
+                        <form>
+                            <button class="survival__button" name="button">Donate</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <article>
+            <div class="wrapper">
+                <div class="container">
+                    <section class="latestArticles">
+                        <h2>Latest articles</h2>
+                        <p>Breaking news from the wild</p>
+                        <div class="latestArticles__slider">
+                            <button class="latestArticles__slider_button latestArticles__slider_button-left" name="left-button"></button>
+                            <div class="latestArticles__slider_column latestArticles__slider_background1">
+                                <div>Deer</div>
+                                <div class="latestArticles__slider_text">Naturalist investigation</div>
+                            </div>
+                            <div class="latestArticles__slider_column latestArticles__slider_background2">
+                                <div>Squirrel</div>
+                                <div class="latestArticles__slider_text">Kamikaze squirrels</div>
+                            </div>
+                            <div class="latestArticles__slider_column latestArticles__slider_background3">
+                                <div>Bird</div>
+                                <div class="latestArticles__slider_text">Birds Fight club</div>
+                            </div>
+                            <button class="latestArticles__slider_button latestArticles__slider_button-right" name="right-button"></button>
+                        </div>
+                    </section>
+
+                    <section class="getNotified">
+                        <p>Get notified about new amazing articles</p>
+                        <form method="get">
+                            <input type="text" name="getNotified" placeholder="Email">
+                            <input type="submit" value="Send">
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </article>
+
+    </main>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="wrapper">
+            <div class="footer__block">
+                <div class="container">
+                    <div class="footer__content ">
+                        <div class="footer__logo">
+                            <figure class="footer__logo_figure">
+                                <img src="./assets/img/svg/wildlife_logo.svg" alt="Wildlife" width="70" height="60">
+                                <figcaption class="footer__logo_figure_name">wildlife</figcaption>
+                            </figure>
+                        </div>
+                        <nav class="footer__nav">
+                            <ul class="footer__nav_list">
+                                <li class="footer__nav_item footer__nav_item1">
+                                    <a class="footer__nav_link" href="">Articles</a>
+                                </li>
+                                <li class="footer__nav_item footer__nav_item2">
+                                    <a class="footer__nav_link" href="">About us</a>
+                                </li>
+                                <li class="footer__nav_item footer__nav_item3">
+                                    <a class="footer__nav_link" href="">Learn more</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="footer__link">
+                            <ul class="footer__link_list">
+                                <li class="footer__link_item">
+                                    <a href="" class="footer__link_icon footer__link_icon_facebook"></a>
+                                </li>
+                                <li class="footer__link_item">
+                                    <a href="" class="footer__link_icon footer__link_icon_instagram"></a>
+                                </li>
+                                <li class="footer__link_item">
+                                    <a href="" class="footer__link_icon footer__link_icon_pinterest"></a>
+                                </li>
+                                <li class="footer__link_item">
+                                    <a href="" class="footer__link_icon footer__link_icon_telegram"></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
